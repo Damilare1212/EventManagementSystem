@@ -1,0 +1,373 @@
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\EventApp.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\EventApp.pdb
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\EventApp.Views.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\EventApp.Views.pdb
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\EventApp\EventApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\appsettings.json
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.exe
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.deps.json
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.json
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.dev.json
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\ref\EventApp.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.pdb
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.Views.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\EventApp.Views.pdb
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\MailKit.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\MimeKit.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\NCrontab.Signed.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Documents\EventApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfo.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\staticwebassets\EventApp.StaticWebAssets.Manifest.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\staticwebassets\EventApp.StaticWebAssets.xml
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\scopedcss\bundle\EventApp.styles.css
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.input.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.output.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.RazorCoreGenerate.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Add.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\AdminPage.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Profile.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Add.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\AttendeePage.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Profile.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\SignUpPage.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Category\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Category\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\Create.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Add.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Profile.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Role\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AdminDashBoard.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AttendeeDashBoard.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutHomePage.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_OrganizerDashBoard.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Ticket\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\User\Profile.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.Views.pdb
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.csproj.CopyComplete
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.dll
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\ref\EventApp.dll
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.pdb
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.genruntimeconfig.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\BookForEvent.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAreaOfInterestEvents.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeePastEvents.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerPastEvents.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerUpComingEvents.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\EventApp.csproj.AssemblyReference.cache
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAllBookedEvents.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Event\CancelEvent.cshtml.g.cs
+C:\Users\PC\Documents\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Error.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.pdb
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\appsettings.json
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.StaticWebAssets.xml
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.exe
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.deps.json
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.json
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.dev.json
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.pdb
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.Views.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.Views.pdb
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MailKit.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MimeKit.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\NCrontab.Signed.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfo.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\scopedcss\bundle\EventApp.styles.css
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\staticwebassets\EventApp.StaticWebAssets.Manifest.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.input.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.output.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorCoreGenerate.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Add.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\AdminPage.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Profile.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Add.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\AttendeePage.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Error.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Profile.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\SignUpPage.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAllBookedEvents.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAreaOfInterestEvents.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeePastEvents.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\BookForEvent.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\CancelEvent.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Create.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerPastEvents.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerUpComingEvents.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Add.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Profile.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AdminDashBoard.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AttendeeDashBoard.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutHomePage.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_OrganizerDashBoard.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Ticket\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Profile.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cs
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.Views.pdb
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.CopyComplete
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\refint\EventApp.dll
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.genruntimeconfig.cache
+C:\Users\USER\Desktop\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\ref\EventApp.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\appsettings.json
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.StaticWebAssets.xml
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.exe
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.deps.json
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.json
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.runtimeconfig.dev.json
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.pdb
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.Views.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\EventApp.Views.pdb
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MailKit.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MimeKit.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\ZstdNet.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\MySql.EntityFrameworkCore.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\NCrontab.Signed.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.AssemblyReference.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfoInputs.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.AssemblyInfo.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.CoreCompileInputs.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorAssemblyInfo.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\scopedcss\bundle\EventApp.styles.css
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\staticwebassets\EventApp.StaticWebAssets.Manifest.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.input.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.TagHelpers.output.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorCoreGenerate.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Add.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\AdminPage.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Profile.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Admin\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Add.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\AttendeePage.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Error.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Profile.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\SignUpPage.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Attendee\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Category\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Create.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Comment\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAllBookedEvents.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeeAreaOfInterestEvents.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\AttendeePastEvents.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\BookForEvent.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\CancelEvent.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Create.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerPastEvents.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\OrganizerUpComingEvents.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Event\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Add.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Profile.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Organizer\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Role\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AdminDashBoard.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_AttendeeDashBoard.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_LayoutHomePage.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_OrganizerDashBoard.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\Ticket\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Login.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Profile.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\User\Update.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.RazorTargetAssemblyInfo.cs
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.Views.pdb
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.csproj.CopyComplete
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\refint\EventApp.dll
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.pdb
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\EventApp.genruntimeconfig.cache
+C:\Users\BDUL LATEEF\Desktop\Abdullateef\Abdullateef File\Copy File\EventApp\obj\Debug\net5.0\ref\EventApp.dll

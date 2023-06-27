@@ -1,0 +1,23 @@
+﻿@model EventApp.DTOs.CategoryDto
+@{
+    Layout = "_AdminDashBoard";
+}
+
+
+<dl class="row">
+    <dt class="col-sm-2">
+        Role:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Name
+    </dd>
+    <dt class="col-sm-2">
+        Description:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Description
+    </dd>
+
+</dl>
+
+<button style="background-color:aquamarine;"><a asp-action="Index">Back to List</a></button>

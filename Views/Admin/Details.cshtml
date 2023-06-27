@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "_AdminDashBoard";
+}
+@model EventApp.DTOs.AdminDto
+
+
+<dl class="row">
+    <dt class="col-sm-2">
+        FirstName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FirstName
+    </dd>
+    <dt class="col-sm-2">
+        LastName:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.LastName
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+    <dt class="col-sm-2">
+        Phone:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+    <dt class="col-sm-2">
+        Picture :
+    </dt>
+    <dt class="col-sm-2">
+        Admin Photo:
+    </dt>
+    <dd class="col-sm-10">
+        <img class="card-img" style="height:200px; width:200px" src="~/adminPhoto/@Model.AdminPhoto" />
+        <a href="~/adminPhoto/@Model.AdminPhoto" download="@Model.AdminPhoto"><input class="btn btn-outline-primary" type="button" value="Download Photo" /></a>
+    </dd>
+
+</dl>
+
+<button style="background-color:aquamarine;"><a asp-action="Index">Back to List</a></button>

@@ -1,0 +1,48 @@
+﻿
+@model EventApp.DTOs.LoginUserDto
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="../css/Login.css">
+
+</head>
+
+<body>
+
+     <form asp-action="Login">
+
+        <div class="form">
+            <h3>Welcome</h3>
+            @ViewBag.error;
+            <div class="form-input">
+
+                <label class="mailLabel">Enter your Email</label><br />
+                <input type="email" name="Email" class="mail" />
+
+            </div>
+
+            <div class="form-input">
+
+                <label class="password">Enter your Password</label><br />
+                <input type="password" name="password" class="password" />
+
+            </div>
+
+            <div class="submit">
+                <input style="background-color:white; color:aqua;" asp-controller="User" type="Submit" asp-action="Login"/>
+            </div>
+
+
+        </div>
+
+
+    </form>
+
+</body>
+
+
+</html>

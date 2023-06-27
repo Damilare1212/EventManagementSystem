@@ -1,0 +1,190 @@
+﻿<!Doctype html>
+<html lang="en">
+<head>
+    <title>Sidebar 01</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/sidebar/css/style.css">
+</head>
+<body>
+
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar">
+            <div class="p-4 pt-5">
+                <a href="#" class="img logo rounded-circle mb-5" style="background-image: url(~sidebar/images/logo.jpg);"></a>
+                <ul class="list-unstyled components mb-5">
+                    <li class="active">
+                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                        <ul class="collapse list-unstyled" id="homeSubmenu">
+                            <li>
+                                <a asp-action="Index" asp-controller="Home">Back To Home Page</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 2</a>
+                            </li>
+                            <li>
+                                <a href="#">Home 3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Admin</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a asp-action="Add" asp-controller="Admin">Add</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Admin">Index</a>
+                            </li>
+                            <li>
+                                <a asp-action="Profile" asp-controller="Admin">Profile</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Organizer</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu2">
+                            <li>
+                                <a asp-action="Add" asp-controller="Organizer">Add</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Organizer">Index</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Attendee</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu3">
+                            <li>
+                                <a asp-action="Add" asp-controller="Attendee">Add</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Attendee">Index</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Category</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu4">
+                            <li>
+                                <a asp-action="Create" asp-controller="Category">Create</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Category">Index</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Comment</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu5">
+                            <li>
+                                <a asp-action="Create" asp-controller="Comment">Create</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Comment">Index</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu6" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Event</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu6">
+                           
+                            <li>
+                                <a asp-action="Index" asp-controller="Event">Index</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#pageSubmenu7" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Role</a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu7">
+                            <li>
+                                <a asp-action="Create" asp-controller="Role">Create</a>
+                            </li>
+                            <li>
+                                <a asp-action="Delete" asp-controller="Role">Delete</a>
+                            </li>
+                            <li>
+                                <a asp-action="Details" asp-controller="Role">Details</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Role">Index</a>
+                            </li>
+                            <li>
+                                <a asp-action="Update" asp-controller="Role">Update</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a asp-action="LogOut" asp-controller="User">LogOut</a>
+                    </li>
+
+                </ul>
+                                <div class="footer">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-primary">
+                        <i class="fa fa-bars"></i>
+                        <span class="sr-only">Toggle Menu</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                   @* <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>*@
+                </div>
+            </nav>
+            <div>
+                <div class="container">
+                    <main role="main" class="pb-3">
+                        @RenderBody()
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/sidebar/js/jquery.min.js"></script>
+    <script src="~/sidebar/js/popper.js"></script>
+    <script src="~/sidebar/js/bootstrap.min.js"></script>
+    <script src="~/sidebar/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

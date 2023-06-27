@@ -1,0 +1,65 @@
+﻿@model EventApp.DTOs.EventDto
+@{
+    Layout = "_AttendeeDashBoard";
+}
+
+
+<h3>Are you sure you want to cancel this Event?</h3>
+<div style="font-size: 130%;">
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Id:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Id
+        </dd>
+        <dt class="col-sm-2">
+            Title:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Title
+        </dd>
+        <dt class="col-sm-2">
+            Theme:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Theme
+        </dd>
+        <dt class="col-sm-2">
+            Event Date:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.EventDate
+        </dd>
+        <dt class="col-sm-2">
+            Event Time:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.EventTime
+        </dd>
+        <dt class="col-sm-2">
+            Venue:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Venue
+        </dd>
+        <dt class="col-sm-2">
+            Instruction:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Instructions
+        </dd>
+        <dt class="col-sm-2">
+            Event Type:
+        </dt>
+        <dd class="col-sm-10">
+            @Model.EventType
+        </dd>
+    </dl>
+
+    <form asp-action="CancelEvent">
+        <input type="submit" value="CancelEvent" class="btn btn-danger" /> |
+        <a asp-action="AttendeeAllBookedEvents">Back to List</a>
+    </form>
+</div>

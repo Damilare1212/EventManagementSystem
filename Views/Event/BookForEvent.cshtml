@@ -1,0 +1,14 @@
+﻿
+@model EventApp.DTOs.EventDto
+@{
+    Layout = "_AttendeeDashBoard";
+}
+
+<div class="row justify-content-center">
+    <h3 class="tagcolor" style="color:mediumblue">You have successfully booked for the event.</h3>
+</div>
+
+    @section Scripts {
+        @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    }
+

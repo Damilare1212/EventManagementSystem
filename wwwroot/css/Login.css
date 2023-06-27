@@ -1,0 +1,41 @@
+﻿body {
+    color:aqua;
+    font-size: large;
+    background-image: url('/MyImages/Hall.jpeg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-input {
+    
+    margin: 9px;
+}
+
+.submit {
+    margin-top: 5px;
+}
+
+input {
+    margin-bottom: 2px;
+    
+}
+
+.mail {
+    margin-bottom: 35px;
+}
+.form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin:250px;
+}
+
+/*.submit{
+    height:10vh;
+    background-color:darkgreen;
+    color:aliceblue;
+}*/
+
+
+

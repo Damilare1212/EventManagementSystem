@@ -1,0 +1,73 @@
+﻿@model IEnumerable<EventApp.DTOs.OrganizerDto>
+@{
+    Layout = "_AdminDashBoard";
+}
+
+<div class="card-header" style="background-color: aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Organizer</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var organizer in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => organizer.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => organizer.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => organizer.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => organizer.PhoneNumber)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@organizer.Id">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@organizer.Id">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@organizer.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:wheat;"><a asp-controller="Organizer" asp-action="Add">Register Organizer</a> </button>
+
+

@@ -1,0 +1,76 @@
+﻿@model EventApp.DTOs.CreateCommentRequestModel
+@{
+    Layout = "_AdminDashBoard";
+}
+@{
+    Layout = "_AttendeeDashBoard";
+}
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class=" card col-md-6">
+            <div class="card-body ">
+                <div class="bg-light">
+                    <h1 class="tagcolor" style="color:mediumblue">Create</h1>
+                    <p class="tagcolor" style="color:mediumblue">Please fill in this form to make a new comment.</p>
+                    <hr class="tagcolor" style="color:mediumblue">
+
+                </div>
+                <form asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Subject" class="control-label"></label>
+                            <input asp-for="Subject" class="form-control" />
+                            <span asp-validation-for="Subject" class="text-danger"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label asp-for="Content" class="control-label"></label>
+                            <input asp-for="Content" class="form-control" />
+                            <span asp-validation-for="Content" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="form-row">
+                            <div class="col-md-6" style="margin-top: 20px; font-size: larger; font-weight: bold; color: darkcyan">
+                                <label class="control-label">Events</label>
+                                <select asp-for="EventsId" class="form-control" asp-items="ViewBag.Event" multiple required>
+                                    <option value="">--Select Event Event(s) --</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-6" style="margin-top: 20px; font-size: larger; font-weight: bold; color: darkcyan">
+                            <label class="control-label">UserEventId </label>
+                            <select asp-for="UserId" class="form-control" asp-items="ViewBag.User" multiple required>
+                                <option value="">--Select UserId(s) --</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
+                    </div>
+
+                   
+                </form>
+            </div>
+
+                   
+               
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

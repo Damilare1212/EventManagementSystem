@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "_AdminDashBoard";
+}
+@model IEnumerable<EventApp.DTOs.AdminDto>
+
+
+<div class="card-header" style="background-color: aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Admins</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var admin in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => admin.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => admin.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => admin.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => admin.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => admin.PhoneNumber)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@admin.Id">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@admin.Id">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@admin.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:wheat;"><a asp-controller="Admin" asp-action="Add">Register Admin</a> </button>
+

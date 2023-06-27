@@ -1,0 +1,67 @@
+﻿@model IEnumerable<EventApp.DTOs.CategoryDto>
+@{
+    Layout = "_AdminDashBoard";
+}
+
+    <div class="card-header" style="background-color: aqua;">
+        <div class="card-title">
+            <h1 class="text-center">Categories</h1>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+
+
+
+                <th>
+                    Update
+                </th>
+                <th>
+                    Details
+                </th>
+                <th>
+                    Delete
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => category.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => category.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => category.Description)
+                    </td>
+
+                    <td>
+                        <a asp-action="Update" asp-route-id="@category.Id">Update</a>
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@category.Id">Details</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button style="background-color:wheat;"><a asp-controller="Category" asp-action="Create">Create Category</a> </button>
+

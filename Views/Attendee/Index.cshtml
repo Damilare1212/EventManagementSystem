@@ -1,0 +1,76 @@
+﻿@model IEnumerable<EventApp.DTOs.AttendeeDto>
+@{
+    Layout = "_AdminDashBoard";
+}
+
+@{
+    Layout = "_AttendeeDashBoard";
+}
+
+<div class="card-header" style="background-color: aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Attendees</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var attendee in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => attendee.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => attendee.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => attendee.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => attendee.PhoneNumber)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@attendee.Id">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@attendee.Id">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@attendee.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button style="background-color:aqua"><a asp-controller="Attendee" asp-action="Add">Register Attendee</a> </button>
+

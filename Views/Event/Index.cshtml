@@ -1,0 +1,71 @@
+﻿@model IEnumerable<EventApp.DTOs.EventDto>
+@{
+    Layout = "_OrganizerDashBoard"; 
+ }
+
+<div class="card-header" style="background-color: aqua;">
+    <div class="card-title">
+        <h1 class="text-center">Events</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Theme)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.EventDate)
+            </th>
+
+
+            <th>
+                Update
+            </th>
+            <th>
+                Details
+            </th>
+            <th>
+                Delete
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var events in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => events.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => events.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => events.Theme)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => events.EventDate)
+                </td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@events.Id">Update</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@events.Id">Details</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@events.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

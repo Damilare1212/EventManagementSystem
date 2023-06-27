@@ -1,0 +1,45 @@
+﻿@model EventApp.DTOs.AttendeeDto
+@{
+    Layout = "_AttendeeDashBoard";
+}
+@TempData["error"]
+<dl class="row">
+    <dt class="col-sm-2">
+        First Name:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.FirstName
+    </dd>
+    <dt class="col-sm-2">
+        Last Name:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.LastName
+    </dd>
+    <dt class="col-sm-2">
+        Email:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Email
+    </dd>
+    <dt class="col-sm-2">
+        Phone Number:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.PhoneNumber
+    </dd>
+    <dt class="col-sm-2">
+        Address:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Address
+    </dd>
+    <dt class="col-sm-2">
+        Gender:
+    </dt>
+    <dd class="col-sm-10">
+        @Model.Gender
+    </dd>
+</dl>
+
+<button style="background-color:darkblue;"><a asp-action="Index">Back to List</a></button>
