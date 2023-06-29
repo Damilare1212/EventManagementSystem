@@ -50,8 +50,12 @@ namespace EventApp.Implementations.Repositories
 
         public async Task<IList<Category>> GetSelected(IList<int> ids)
         {
-            var categories = await _context.Categories.Include( k => k.EventCategories).ThenInclude(h => h.Event)
-               .Where(b => b.IsDeleted == false).Where(n => ids.Contains(n.Id)).ToListAsync();
+            var categories = await _context.Categories
+                                            .Include(k => k.EventCategories)
+                                            .ThenInclude(h => h.Event)
+                                           .Where(b => b.IsDeleted == false)
+                                           .Where(n => ids.Contains(n.Id)).
+                                           ToListAsync();
             return categories;
         }
     }
