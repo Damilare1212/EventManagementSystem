@@ -70,7 +70,15 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View(new UpdateEventRequestModel { Venue = events.Data.Venue, Title = events.Data.Title, Theme = events.Data.Theme, Instructions = events.Data.Instructions, EventType = events.Data.EventType, CategoryIds = events.Data.EventCategories });
+            return View(new UpdateEventRequestModel
+            {
+                Venue = events.Data.Venue,
+                Title = events.Data.Title,
+                Theme = events.Data.Theme,
+                Instructions = events.Data.Instructions,
+                EventType = events.Data.EventType,
+                CategoryIds = events.Data.EventCategories.Select(ec => ec.Id).ToList()
+            });
         }
 
         [HttpPost]
