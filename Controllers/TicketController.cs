@@ -42,7 +42,7 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateTicketRequestModel { AttendeeId = ticket.Data.AttendeeId, EventId = ticket.Data.EventId, EventType = ticket.Data.EventType});
         }
 
         [HttpPost]

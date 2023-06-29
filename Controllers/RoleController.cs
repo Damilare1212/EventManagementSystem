@@ -46,7 +46,7 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateRoleRequestModel { Description = role.Data.Description, Name = role.Data.Name});
         }
 
         [HttpPost]

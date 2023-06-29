@@ -35,8 +35,8 @@ namespace EventApp.Implementations.Repositories
             var admin = await _context.Admins.Include(a => a.User)
                         .ThenInclude(h => h.UserRoles)
                         .ThenInclude(f => f.Role)
-                        .Where(d => d.IsDeleted == false)
-                        .FirstOrDefaultAsync(expression);
+                        .Where(expression)
+                        .FirstOrDefaultAsync();
             return admin;
         }
 

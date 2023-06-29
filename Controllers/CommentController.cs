@@ -53,7 +53,7 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateCommentRequestModel { Content = comment.Data.Content, Subject = comment.Data.Subject});
         }
 
         [HttpPost]

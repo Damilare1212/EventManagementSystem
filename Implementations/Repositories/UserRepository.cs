@@ -54,8 +54,11 @@ namespace EventApp.Implementations.Repositories
 
         public async Task<User> GetUserByEmail(string email)
         {
-            return await _context.Users.Include(h => h.UserRoles).ThenInclude(k => k.Role)
-                .Where(m => m.IsDeleted == false).FirstOrDefaultAsync( j => j.Email == email);
+            return await _context.Users
+                                .Include(h => h.UserRoles)      
+                                .ThenInclude(k => k.Role)
+                                .Where(m => m.IsDeleted == false)
+                                .FirstOrDefaultAsync( j => j.Email == email);
         }
     }
 }

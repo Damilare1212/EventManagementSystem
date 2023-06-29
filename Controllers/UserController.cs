@@ -15,10 +15,12 @@ namespace EventApp.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _userService;
+        private readonly IAdminService _adminService;
 
-        public UserController( IUserService userService)
+        public UserController( IUserService userService, IAdminService adminService)
         {
             _userService = userService;
+            _adminService = adminService;
         }
 
         [HttpGet]
@@ -34,7 +36,7 @@ namespace EventApp.Controllers
         {
             var user = await _userService.Login(model);
             ViewBag.error = user.Message;
-            if (user.st != null)
+            if (user.Status != false)
             {
 
                 var claims = new List<Claim>
@@ -58,7 +60,8 @@ namespace EventApp.Controllers
 
                 if (user.Data.Roles.Select( x => x.Name).Contains("Admin"))
                 {
-                    return RedirectToAction("Profile", "Admin");
+                    var admin = await _adminService.GetAdminByEmail(user.Data.Email);
+                    return RedirectToAction("Profile", "Admin", admin);
                 }
 
                 if (user.Data.Roles.Select(x => x.Name).Contains("Attendee"))

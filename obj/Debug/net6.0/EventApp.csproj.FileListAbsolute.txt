@@ -130,3 +130,11 @@ C:\Users\OLALEKAN\Desktop\MyFiles\Projects\MyProjects\EventApp\obj\Debug\net6.0\
 C:\Users\OLALEKAN\Desktop\MyFiles\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.pdb
 C:\Users\OLALEKAN\Desktop\MyFiles\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.genruntimeconfig.cache
 C:\Users\OLALEKAN\Desktop\MyFiles\Projects\MyProjects\EventApp\obj\Debug\net6.0\ref\EventApp.dll
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.AssemblyInfo.cs
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.RazorAssemblyInfo.cache
+C:\Users\USER\Desktop\Projects\MyProjects\EventApp\obj\Debug\net6.0\EventApp.RazorAssemblyInfo.cs

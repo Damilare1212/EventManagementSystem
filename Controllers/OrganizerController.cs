@@ -54,7 +54,7 @@ namespace EventApp.Controllers
             {
                 return Content(organizer.Message);
             }
-            return View();
+            return View(new UpdateOrganizerRequestModel { Address = organizer.Data.Address, Email = organizer.Data.Email, FirstName = organizer.Data.FirstName, LastName = organizer.Data.LastName, Organization = organizer.Data .Organization, Position = organizer.Data.Position, PhoneNumber = organizer.Data.PhoneNumber});
         }
 
         [HttpPost]

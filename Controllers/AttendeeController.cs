@@ -1,4 +1,5 @@
 ﻿using EventApp.DTOs;
+using EventApp.Entities;
 using EventApp.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -71,16 +72,14 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateAttendeeRequestModel { FirstName = attendee.Data.FirstName, Email = attendee.Data.Email, LastName = attendee.Data.LastName, PhoneNumber = attendee.Data.PhoneNumber });
         }
-
         [HttpPost]
         public async Task<IActionResult> Update(int id, UpdateAttendeeRequestModel model)
         {
             var attendee = await _attendeeService.UpdateAttendee(id, model);
             return RedirectToAction("Profile");
         }
-
         [HttpGet]
         [Authorize(Roles= "Attendee")]
         public async Task<IActionResult> Details(int id)

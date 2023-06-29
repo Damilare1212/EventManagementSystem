@@ -84,7 +84,7 @@ namespace EventApp.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(new UpdateAdminRequestModel { FirstName = admin.Data.FirstName, Email = admin.Data.Email, LastName = admin.Data.LastName, AdminPhoto = admin.Data.AdminPhoto, PhoneNumber = admin.Data.PhoneNumber });
         }
 
         [HttpPost]

@@ -36,18 +36,18 @@ namespace EventApp.Controllers
             return View(events.Data);
         }
 
-       
+
         public async Task<IActionResult> Create()
         {
             var category = await _categoryService.GetAll();
             ViewData["Category"] = new SelectList(category.Data, "Id", "Name");
             var organizer = await _organizerService.GetAllOrganizers();
-            ViewData["Organizer"] = new SelectList(organizer.Data, "Id", "FirstName" );
+            ViewData["Organizer"] = new SelectList(organizer.Data, "Id", "FirstName");
             return View();
         }
 
         [HttpPost]
-        [Authorize(Roles = "Organizer")]
+        //[Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Create(CreateEventRequestModel model)
         {
             var events = await _eventService.CreateEvent(model);
@@ -63,30 +63,30 @@ namespace EventApp.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Update (int id)
+        public async Task<IActionResult> Update(int id)
         {
             var events = await _eventService.GetEventById(id);
             if (events == null)
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateEventRequestModel { Venue = events.Data.Venue, Title = events.Data.Title, Theme = events.Data.Theme, Instructions = events.Data.Instructions, EventType = events.Data.EventType, CategoryIds = events.Data.EventCategories });
         }
 
         [HttpPost]
-        [Authorize(Roles ="Organizer")]
+        [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Update(int id, UpdateEventRequestModel model)
         {
             var events = await _eventService.UpdateEvent(id, model);
             return RedirectToAction("View");
         }
-        
+
         [HttpGet]
-        [Authorize(Roles ="Organizer")]
+        [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Delete(int id)
         {
             var events = await _eventService.GetEventById(id);
-            if(events == null)
+            if (events == null)
             {
                 NotFound();
             }
@@ -94,14 +94,14 @@ namespace EventApp.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        [Authorize(Roles ="Organizer")]
+        [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> DeleteConfirm(int id)
         {
             var events = await _eventService.DeleteEvent(id);
             return RedirectToAction("Index");
         }
 
-        
+
         [HttpGet]
         public async Task<IActionResult> BookForEvent(int id)
         {
@@ -126,7 +126,7 @@ namespace EventApp.Controllers
         {
             return View();
         }
-     
+
         [HttpPost]
         public async Task<IActionResult> SearchEvent(string searchText)
         {
@@ -137,11 +137,14 @@ namespace EventApp.Controllers
         [HttpGet]
         public async Task<IActionResult> AttendeeAreaOfInterestEvents()
         {
-            var userMail =  User.FindFirst(ClaimTypes.Email).Value;
+            var userMail = User.FindFirst(ClaimTypes.Email).Value;
             var attendee = await _attendeeService.GetAttendeeByEmail(userMail);
-
-            var events = await _eventService.GetAttendeeAreaOfInterestEvents(attendee.Data.Id);
-            return View(events.Data);
+            if (attendee != null)
+            {
+                var events = await _eventService.GetAttendeeAreaOfInterestEvents(attendee.Data.Id);
+                return View(events.Data);
+            }
+            return Content("An Error occured while fetching the Attendee Details");
         }
 
         [HttpGet]
@@ -159,7 +162,7 @@ namespace EventApp.Controllers
         public async Task<IActionResult> CancelEvent(int id)
         {
             var events = await _eventService.GetEventById(id);
-            if( events == null)
+            if (events == null)
             {
                 NotFound();
             }
@@ -185,7 +188,7 @@ namespace EventApp.Controllers
             var events = await _eventService.GetAllAttendeePastEvents(attendee.Data.Id);
             return View(events.Data);
         }
-        
+
         [HttpGet]
         public async Task<IActionResult> OrganizerUpComingEvents()
         {

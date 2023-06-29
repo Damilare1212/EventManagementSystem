@@ -116,9 +116,8 @@ namespace EventApp.Implementations.Services
        
         public async Task<BaseResponse<UserDto>> Login(LoginUserDto model)
         {
-            //var user = await _userRepository.Get(h => h.Email.Equals(model.Email, StringComparison.OrdinalIgnoreCase));
             var user = await _userRepository.GetUserByEmail(model.Email);
-            if(user is not null &&  (BCrypt.Net.BCrypt.Verify( model.Password, user.Password)))
+            if (user is not null && (BCrypt.Net.BCrypt.Verify(model.Password, user.Password)))
             {
                 return new BaseResponse<UserDto>
                 {

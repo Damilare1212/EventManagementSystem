@@ -44,7 +44,7 @@ namespace EventApp.Controllers
             {
                 NotFound();
             }
-            return View();
+            return View(new UpdateCategoryRequestModel { Description = category.Data.Description, Name = category.Data.Name});
         }
 
         [HttpPost]
