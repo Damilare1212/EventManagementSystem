@@ -36,10 +36,14 @@ namespace EventApp.Implementations.Repositories
         
         public async Task<Organizer> Get(Expression<Func<Organizer, bool>> expression)
         {
-            return await _context.Organizers.Include(d => d.User)
-                        .ThenInclude(p => p.UserRoles).ThenInclude(m => m.Role)
-                        .Include(l => l.EventOrganizers).ThenInclude(m => m.Event)
-                        .Where(g => g.IsDeleted == false).FirstOrDefaultAsync(expression);
+            return await _context.Organizers
+                        .Include(d => d.User)
+                        .ThenInclude(p => p.UserRoles)
+                        .ThenInclude(m => m.Role)
+                        .Include(l => l.EventOrganizers)
+                        .ThenInclude(m => m.Event)
+                        .Where(g => g.IsDeleted == false)
+                        .FirstOrDefaultAsync(expression);
         }
 
         public async Task<IList<Organizer>> GetAll()

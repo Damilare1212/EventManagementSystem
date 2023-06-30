@@ -1,9 +1,6 @@
 ﻿@model EventApp.DTOs.CreateCommentRequestModel
 @{
-    Layout = "_AdminDashBoard";
-}
-@{
-    Layout = "_AttendeeDashBoard";
+    Layout = User.IsInRole("Admin") ? "_AdminDashBoard" : "_AttendeeDashBoard";
 }
 
 

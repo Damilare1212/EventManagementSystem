@@ -1,11 +1,8 @@
 ﻿using EventApp.DTOs;
-using EventApp.Enums;
 using EventApp.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -90,7 +87,7 @@ namespace EventApp.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "Organizer")]
+        [Authorize(Roles = "Organizer,Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var events = await _eventService.GetEventById(id);
@@ -102,7 +99,7 @@ namespace EventApp.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        [Authorize(Roles = "Organizer")]
+        [Authorize(Roles = "Organizer,Admin")]
         public async Task<IActionResult> DeleteConfirm(int id)
         {
             var events = await _eventService.DeleteEvent(id);

@@ -1,12 +1,17 @@
 ﻿@model EventApp.DTOs.EventDto
 @{
-    Layout = "_AdminDashBoard";
-}
-@{
-    Layout = "_AttendeeDashBoard";
-}
-@{ 
-    Layout = "_OrganizerDashBoard";
+    if (User.IsInRole("Admin"))
+    {
+        Layout = "_AdminDashBoard";
+    }
+    else if (User.IsInRole("Organizer"))
+    {
+        Layout = "_OrganizerDashBoard";
+    }
+    else
+    {
+        Layout = "_AttendeeDashBoard";
+    }
 }
 
 <dl class="row">
@@ -49,4 +54,4 @@
    
 </dl>
 
-<button style="background-color:darkblue;"><a asp-action="AttendeeAllBookedEvents">Back to List</a></button>
+<button style="background-color:darkblue;"><a asp-action="Index">Back to List</a></button>

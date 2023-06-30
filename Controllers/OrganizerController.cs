@@ -61,14 +61,26 @@ namespace EventApp.Controllers
         public async Task<IActionResult> Update(int id, UpdateOrganizerRequestModel model)
         {
             var organizer = await _organizerService.UpdateOrganizer(id, model);
-            return RedirectToAction("Details");
+            if (organizer.Status)
+            {
+                return RedirectToAction("Details", "Organizer", new { email = organizer.Data.Email });
+            }
+            // Handle error case if necessary
+            return RedirectToAction("Index", "Organizer");
         }
+
         [HttpGet]
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(string id)
         {
-            var organizer = await _organizerService.GetOrganizerById(id);
-            return View(organizer.Data);
+            var organizer = await _organizerService.GetOrganizerByEmail(email: id);
+            if (organizer.Status)
+            {
+                return View(organizer.Data);
+            }
+            // Handle error case if necessary
+            return RedirectToAction("Index", "Organizer");
         }
+
 
         [HttpGet]
         public async Task<IActionResult> Delete(int id)

@@ -1,5 +1,7 @@
-﻿@{
+﻿@using System.Security.Claims;
+@{
     Layout = "_AdminDashBoard";
+    var loggedInUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 }
 @model IEnumerable<EventApp.DTOs.AdminDto>
 
@@ -47,32 +49,35 @@
     <tbody>
         @foreach (var admin in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => admin.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => admin.FirstName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => admin.LastName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => admin.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => admin.PhoneNumber)
-                </td>
-                <td>
-                    <a asp-action="Update" asp-route-id="@admin.Id">Update</a>
-                </td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@admin.Id">Details</a>
-                </td>
-                <td>
-                    <a asp-action="Delete" asp-route-id="@admin.Id">Delete</a>
-                </td>
-            </tr>
+            if (admin.Id.ToString() != loggedInUserId)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => admin.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => admin.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => admin.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => admin.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => admin.PhoneNumber)
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@admin.Id">Update</a>
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@admin.Id">Details</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@admin.Id">Delete</a>
+                    </td>
+                </tr>
+            }
         }
     </tbody>
 </table>
