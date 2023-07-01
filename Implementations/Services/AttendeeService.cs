@@ -94,6 +94,8 @@ namespace EventApp.Implementations.Services
                 {
                     ToEmail  = attendees.Email,
                     UserName = $"{attendees.FirstName} {attendees.LastName}",
+                    FirstName = attendees.FirstName,
+                    LastName = attendees.LastName,
                 };
                var attendee =  await _attendeeRepository.Create(attendees);
 
