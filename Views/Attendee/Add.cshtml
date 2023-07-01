@@ -11,8 +11,10 @@
     <link rel="apple-touch-icon" sizes="76x76" href="~/material-dashboard-2/assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="~/material-dashboard-2/assets/img/favicon.png">
     <title>
-        Material Dashboard 2 by Creative Tim
+        EventApp
     </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Include additional CSS styles for customizing the view -->
     <!--     Fonts and icons     -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
     <!-- Nucleo Icons -->
@@ -29,14 +31,14 @@
 <body class="bg-gray-200">
     <div class="container position-sticky z-index-sticky top-0">
         <div class="row">
-            <div class="col-12">
+            @*<div class="col-12">
                 <nav class="navbar navbar-expand-lg blur border-radius-lg top-0 z-index-3 shadow position-absolute mt-4 py-2 start-0 end-0 mx-4">
                     @if(TempData != null)
                     {
                         <h3>@TempData["error"]</h3>
                     }
                 </nav>
-            </div>
+            </div>*@
         </div>
     </div>
     <main class="main-content  mt-0">
@@ -166,6 +168,8 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="~/material-dashboard-2/assets/js/material-dashboard.min.js?v=3.0.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

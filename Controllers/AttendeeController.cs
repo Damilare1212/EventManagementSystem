@@ -1,5 +1,6 @@
 ﻿using EventApp.DTOs;
 using EventApp.Entities;
+using EventApp.Implementations.Services;
 using EventApp.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -56,9 +57,12 @@ namespace EventApp.Controllers
         public async Task<IActionResult> Add(CreateAttendeeRequestModel model)
         {
             var attendee = await _attendeeService.AddAttendee(model);
-            TempData["error"] = attendee.Message;
+
+
             if(attendee.Status == false)
             {
+                TempData["NotificationType"] = "error";
+                TempData["NotificationMessage"] = attendee.Message;
                 return View(model);
             }
             return RedirectToAction("Login", "User");
