@@ -38,7 +38,7 @@ namespace EventApp.Implementations.Repositories
             return await _context.Categories.Where(h => h.IsDeleted == false).ToListAsync();
         }
 
-        public async Task<IList<Category>> GetCategoriesByEvent(int eventId)
+        public async Task<List<Category>> GetCategoriesByEvent(int eventId)
         {
             return await _context.EventCategories.Include(c => c.Category).Where(a => a.EventId == eventId).Select(a => a.Category).ToListAsync();
         }

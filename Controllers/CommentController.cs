@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace EventApp.Controllers
@@ -32,18 +33,32 @@ namespace EventApp.Controllers
         {
             var events = await _eventService.GetAll();
             ViewData["Event"] = new SelectList(events.Data, "Id", "Title");
-            var roles = await _roleService.GetAllRoles();
-            ViewData["Roles"] = new SelectList(roles.Data, "Id", "Name");
-
+           
             return View();
         }
 
         [HttpPost]
         public async Task<IActionResult> Create(CreateCommentRequestModel model)
         {
-            var comment = await _commentService.AddComment(model);
-            return RedirectToAction("Index");
-        } 
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+
+            var comment = await _commentService.AddComment(model, userId);
+            if (comment.Status)
+            {
+                // If the comment status is true, show a success toast notification and redirect to Index
+                TempData["NotificationType"] = "success";
+                TempData["NotificationMessage"] = comment.Message;
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                // If the comment status is false, show an error toast notification and remain on the same page
+                TempData["NotificationType"] = "error";
+                TempData["NotificationMessage"] = comment.Message;
+                return View(); // Replace "YourCurrentPage" with the actual page name or action method.
+            }
+        }
+
 
         [HttpGet]
         public async Task<IActionResult> Update (int id)
@@ -60,7 +75,7 @@ namespace EventApp.Controllers
         public async Task<IActionResult> Update(int id, UpdateCommentRequestModel model)
         {
             var comment = await _commentService.UpdateComment(id,model);
-            return RedirectToAction("View");
+            return RedirectToAction("Index");
         }
 
         [HttpGet]

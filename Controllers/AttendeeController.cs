@@ -59,7 +59,7 @@ namespace EventApp.Controllers
             TempData["error"] = attendee.Message;
             if(attendee.Status == false)
             {
-                return RedirectToAction("error");
+                return View(model);
             }
             return RedirectToAction("Login", "User");
         }

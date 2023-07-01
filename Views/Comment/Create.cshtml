@@ -2,6 +2,7 @@
 @{
     Layout = User.IsInRole("Admin") ? "_AdminDashBoard" : "_AttendeeDashBoard";
 }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
 
 <div class="container">
@@ -40,14 +41,14 @@
                         </div>
                     </div>
 
-                    <div class="form-row">
+                   @* <div class="form-row">
                         <div class="col-md-6" style="margin-top: 20px; font-size: larger; font-weight: bold; color: darkcyan">
                             <label class="control-label">UserEventId </label>
                             <select asp-for="UserId" class="form-control" asp-items="ViewBag.User" multiple required>
                                 <option value="">--Select UserId(s) --</option>
                             </select>
                         </div>
-                    </div>
+                    </div>*@
 
                     <div class="form-group ">
                         <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
@@ -59,15 +60,32 @@
 
                    
                
-            </div>
         </div>
-
     </div>
+
 </div>
 
+<!-- Include the necessary JavaScript files for Toastr -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+<!-- Your JavaScript code here -->
 
 
+<script>
+    $(document).ready(function () {
+        var notificationType = '@TempData["NotificationType"]';
+        var notificationMessage = '@TempData["NotificationMessage"]';
 
+        if (notificationType && notificationMessage) {
+            if (notificationType === "success") {
+                toastr.success(notificationMessage);
+            } else if (notificationType === "error") {
+                toastr.error(notificationMessage);
+            }
+        }
+    });
+</script>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

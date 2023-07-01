@@ -435,12 +435,12 @@ namespace EventApp.Implementations.Services
             var attendeeEvent = await _eventRepository.GetAttendeeEventById(attendeeId, eventId);
             var attendee = await _attendeeRepository.Get(attendeeId);
             var events = await _eventRepository.Get(eventId);
-                if (attendeeEvent != null || attendeeEvent.Event.EventType == Enums.EventType.PrivateEvent || attendeeEvent.Event.EventDate < DateTime.UtcNow)
+                if (attendeeEvent != null &&( attendeeEvent.Event.EventType == Enums.EventType.PrivateEvent || attendeeEvent.Event.EventDate < DateTime.UtcNow))
                 {
                     return new BaseResponse<EventDto>
                     {
                         Status = false,
-                        Message = "The Event searching for is either not found, past not an open event or has been registered for bsfore now.",
+                        Message = "The Event searching for is either not found, past not an open event or has been registered for before now.",
                     };
                 }
             
@@ -683,7 +683,7 @@ namespace EventApp.Implementations.Services
 
         public async Task<BaseResponse<IList<EventDto>>> GetAllOrganizerUpComingEvents(int organizerId)
         {
-            var events = await _eventRepository.GetAllAttendeeUpcomingEvents(organizerId);
+            var events = await _eventRepository.GetAllOrganizerUpComingEvents(organizerId);
             if (events == null)
             {
                 return new BaseResponse<IList<EventDto>>

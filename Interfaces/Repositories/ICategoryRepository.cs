@@ -15,7 +15,7 @@ namespace EventApp.Interfaces.Repositories
         public bool Exists(Expression<Func<Category, bool>> expression);
         public bool Exist(int id);
         public Task<IList<Category>> GetAll();
-        public Task<IList<Category>> GetCategoriesByEvent(int eventId);
+        public Task<List<Category>> GetCategoriesByEvent(int eventId);
        
     }
 }

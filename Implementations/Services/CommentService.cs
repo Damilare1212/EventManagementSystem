@@ -1,5 +1,6 @@
 ﻿using EventApp.DTOs;
 using EventApp.Entities;
+using EventApp.Implementations.Repositories;
 using EventApp.Interfaces.Repositories;
 using EventApp.Interfaces.Services;
 using System;
@@ -12,14 +13,16 @@ namespace EventApp.Implementations.Services
     public class CommentService : ICommentService
     {
         private readonly ICommentRepository _commentRepository;
-        public CommentService(ICommentRepository commentRepository)
+        private readonly IEventRepository _eventRepository;
+        public CommentService(ICommentRepository commentRepository, IEventRepository eventRepository)
         {
             _commentRepository = commentRepository;
+            _eventRepository = eventRepository;
         }
-        public async  Task<BaseResponse<CommentDto>> AddComment(CreateCommentRequestModel model)
+        public async Task<BaseResponse<CommentDto>> AddComment(CreateCommentRequestModel model, int userId)
         {
-            var newComment = await _commentRepository.Get(h => h.UserId == model.UserId);
-            if(newComment != null) 
+            var newComment = await _commentRepository.Get(h => h.UserId == userId && h.EventsId == model.EventsId);
+            if (newComment != null)
             {
                 return new BaseResponse<CommentDto>
                 {
@@ -31,8 +34,8 @@ namespace EventApp.Implementations.Services
             {
                 Content = model.Content,
                 Subject = model.Subject,
-                UserId = model.UserId,
-                EventsId = model.EventsId,        
+                UserId = userId,
+                EventsId = model.EventsId,
             };
             await _commentRepository.Create(comment);
             _commentRepository.SaveChanges();
@@ -54,7 +57,7 @@ namespace EventApp.Implementations.Services
         public async Task<BaseResponse<CommentDto>> DeleteComment(int id)
         {
             var comment = await _commentRepository.Get(id);
-            if(comment == null)
+            if (comment == null)
             {
                 return new BaseResponse<CommentDto>
                 {
@@ -71,10 +74,36 @@ namespace EventApp.Implementations.Services
             };
         }
 
+        //public async Task<BaseResponse<IList<CommentDto>>> GetAllComments()
+        //{
+        //    var comments = await _commentRepository.GetAll();
+        //    if (comments == null || comments.Count == 0)
+        //    {
+        //        return new BaseResponse<IList<CommentDto>>
+        //        {
+        //            Status = false,
+        //            Message = "The comments are not found."
+        //        };
+        //    }
+        //    return new BaseResponse<IList<CommentDto>>
+        //    {
+        //        Status = true,
+        //        Message = "All comments are successfully retrieved.",
+        //        Data = comments.Select(j => new CommentDto
+        //        {
+        //            Id = j.Id,
+        //            Content = j.Content,
+        //            Subject = j.Subject,
+        //            IsDeleted = j.IsDeleted,
+        //            EvetName = await _eventepository.Get(j.EventsId)
+        //        });.ToList(),
+        //    };
+        //}
+
         public async Task<BaseResponse<IList<CommentDto>>> GetAllComments()
         {
             var comments = await _commentRepository.GetAll();
-            if(comments == null || comments.Count == 0)
+            if (comments == null || comments.Count == 0)
             {
                 return new BaseResponse<IList<CommentDto>>
                 {
@@ -82,24 +111,75 @@ namespace EventApp.Implementations.Services
                     Message = "The comments are not found."
                 };
             }
+
+            var commentDtos = new List<CommentDto>();
+            var eventIds = comments.Select(comment => comment.EventsId).Distinct();
+
+            var eventNames = await GetEventNames(eventIds);
+
+            foreach (var comment in comments)
+            {
+                var eventName = eventNames[comment.EventsId];
+
+                commentDtos.Add(new CommentDto
+                {
+                    Id = comment.Id,
+                    Content = comment.Content,
+                    Subject = comment.Subject,
+                    IsDeleted = comment.IsDeleted,
+                    EventName = eventName,
+                    CreatorId = comment.UserId
+                });
+            }
+
             return new BaseResponse<IList<CommentDto>>
             {
                 Status = true,
                 Message = "All comments are successfully retrieved.",
-                Data = comments.Select(j => new CommentDto
-                {
-                    Id = j.Id,
-                    Content = j.Content,
-                    Subject = j.Subject,
-                    IsDeleted = j.IsDeleted
-                }).ToList(),
+                Data = commentDtos
             };
         }
+
+        private async Task<Dictionary<int, string>> GetEventNames(IEnumerable<int> eventIds)
+        {
+            var eventNames = new Dictionary<int, string>();
+
+            foreach (var eventId in eventIds)
+            {
+                var eventName = await _eventRepository.Get(eventId);
+                eventNames[eventId] = eventName.Title;
+            }
+
+            return eventNames;
+        }
+
+        //private async Task<Dictionary<int, string>> GetEventNames(IEnumerable<int> eventIds)
+        //{
+        //    var eventNames = new Dictionary<int, string>();
+        //    var tasks = new List<Task>();
+
+        //    foreach (var eventId in eventIds)
+        //    {
+        //        tasks.Add(Task.Run(async () =>
+        //        {
+        //            var eventName = await _eventRepository.Get(eventId);
+        //            lock (eventNames)
+        //            {
+        //                eventNames[eventId] = eventName.Title;
+        //            }
+        //        }));
+        //    }
+
+        //    await Task.WhenAll(tasks);
+
+        //    return eventNames;
+        //}
+
 
         public async Task<BaseResponse<CommentDto>> GetCommentByContent(string content)
         {
             var comment = await _commentRepository.Get(b => b.Content.ToLower() == content.ToLower().Trim());
-            if(comment == null)
+            if (comment == null)
             {
                 return new BaseResponse<CommentDto>
                 {
@@ -132,6 +212,7 @@ namespace EventApp.Implementations.Services
                     Message = $"The comment is not found.",
                 };
             }
+            var Event = await _eventRepository.Get(comment.EventsId);
             return new BaseResponse<CommentDto>
             {
                 Status = true,
@@ -141,12 +222,13 @@ namespace EventApp.Implementations.Services
                     Content = comment.Content,
                     Subject = comment.Subject,
                     IsDeleted = comment.IsDeleted,
+                    EventName = Event.Title,
                     Id = comment.Id
                 }
             };
         }
 
-        
+
         public async Task<BaseResponse<CommentDto>> GetCommentBySubject(string subject)
         {
             var comment = await _commentRepository.Get(v => v.Subject.ToLower() == subject.ToLower().Trim());
@@ -200,7 +282,7 @@ namespace EventApp.Implementations.Services
         public async Task<BaseResponse<IList<CommentDto>>> GetSelectedComments(IList<int> ids)
         {
             var comments = await _commentRepository.GetSelected(ids);
-            if(comments == null || comments.Count == 0)
+            if (comments == null || comments.Count == 0)
             {
                 return new BaseResponse<IList<CommentDto>>
                 {
@@ -208,7 +290,7 @@ namespace EventApp.Implementations.Services
                     Message = $"The selected comments are not found.",
                 };
             }
-           
+
             return new BaseResponse<IList<CommentDto>>
             {
                 Status = true,
@@ -227,7 +309,7 @@ namespace EventApp.Implementations.Services
         public async Task<BaseResponse<CommentDto>> UpdateComment(int id, UpdateCommentRequestModel model)
         {
             var comment = await _commentRepository.Get(id);
-            if(comment == null)
+            if (comment == null)
             {
                 return new BaseResponse<CommentDto>
                 {

@@ -11,6 +11,8 @@ namespace EventApp.DTOs
     {
         public int Id { get; set; }
         public string Subject { get; set; }
+        public string EventName { get; set; }
+        public int CreatorId { get; set; }
         public string Content { get; set; }
         public bool IsDeleted { get; set; }
     }
@@ -21,7 +23,6 @@ namespace EventApp.DTOs
         [Required]
         [StringLength(maximumLength:50)]
         public string Content { get; set; }
-        public int UserId { get; set; }
         public int EventsId { get; set; }
     }
 

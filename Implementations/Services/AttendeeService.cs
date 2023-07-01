@@ -96,8 +96,8 @@ namespace EventApp.Implementations.Services
                     UserName = $"{attendees.FirstName} {attendees.LastName}",
                 };
                var attendee =  await _attendeeRepository.Create(attendees);
-               
-               // await _mailServices.SendWelcomeEmailAsync(welcome);
+
+                await _mailServices.SendWelcomeEmailAsync(welcome);
                 return new BaseResponse<AttendeeDto>
                 {
                     Status = true,

@@ -1,108 +1,4 @@
-﻿@*@{
-    Layout = null;
-}
-
-<div class="container">
-    <div class="row justify-content-center">
-        <div class=" card col-md-6">
-            <div class="card-body ">
-                <div class="bg-light">
-                    <h1 class="tagcolor" style="color:mediumblue">Welcome</h1>
-                    <p class="tagcolor" style="color:mediumblue">Kindly fill in this form to register as a new Attendee.</p>
-                    <hr class="tagcolor" style="color:mediumblue">
-
-                </div>
-                <form asp-action="Add" enctype="multipart/form-data">
-                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-row">
-                        <div class="form-group col-sm-6">
-                            <label asp-for="FirstName" class="control-label"></label>
-                            <input asp-for="FirstName" class="form-control" />
-                            <span asp-validation-for="FirstName" class="text-danger"></span>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label asp-for="LastName" class="control-label"></label>
-                            <input asp-for="LastName" class="form-control" />
-                            <span asp-validation-for="LastName" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="form-row">
-
-                        <div class="form-group col-sm-6">
-                            <label asp-for="PhoneNumber" class="control-label"></label>
-                            <input asp-for="PhoneNumber" class="form-control" />
-                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label asp-for="Gender" class="control-label"></label>
-                            <input asp-for="Gender" class="form-control" />
-                            <span asp-validation-for="Gender" class="text-danger"></span>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label asp-for="Address" class="control-label"></label>
-                            <input asp-for="Address" class="form-control" />
-                            <span asp-validation-for="Address" class="text-danger"></span>
-                        </div>
-                        <div class="form-group col-sm-6">
-                            <label asp-for="Email" class="control-label"></label>
-                            <input asp-for="Email" class="form-control" />
-                            <span asp-validation-for="Email" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        
-                        <div style="width:50vw">
-                            <div class="form-row">
-                                <div class="col-md-6" style="margin-top: 20px; margin-bottom: 20px; font-size: larger; font-weight: bold; color: darkcyan">
-                                    <label class="control-label">Event Category</label>
-                                    <select asp-for="CategoryIds" class="form-control" asp-items="ViewBag.Category" multiple required>
-                                        <option value="">--Select 3 Events Category--</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div>
-                        <div class="form-group col-sm-6">
-                            <label asp-for="Password" class="control-label"></label>
-                            <input asp-for="Password" class="form-control" />
-                            <span asp-validation-for="Password" class="text-danger"></span>
-                        </div>
-
-                        <div class="form-group col-sm-6">
-                            <label asp-for="ConfirmPassword" class="control-label"></label>
-                            <input asp-for="ConfirmPassword" class="form-control" />
-                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-                        </div>
-                    </div>
-                    <div class="form-group ">
-                        <input href="#myModal" type="submit" value="Submit" class="btn btn-success trigger-btn col-sm-12" data-toggle="modal" />
-                    </div>
-             </form>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}*@
-
-
-
-
-
-
-
-
-@model EventApp.DTOs.CreateAttendeeRequestModel
+﻿@model EventApp.DTOs.CreateAttendeeRequestModel
 @{
     Layout = null;
 }
@@ -134,6 +30,12 @@
     <div class="container position-sticky z-index-sticky top-0">
         <div class="row">
             <div class="col-12">
+                <nav class="navbar navbar-expand-lg blur border-radius-lg top-0 z-index-3 shadow position-absolute mt-4 py-2 start-0 end-0 mx-4">
+                    @if(TempData != null)
+                    {
+                        <h3>@TempData["error"]</h3>
+                    }
+                </nav>
             </div>
         </div>
     </div>
@@ -166,6 +68,7 @@
                                     </div>
                                 </div>
                             </div>
+                           
                             <div class="card-body">
                                 <form asp-action="Add" class="text-start">
                                     <div class="input-group input-group-outline my-3">
@@ -220,7 +123,7 @@
                                     </div>
                                     <p class="mt-4 text-sm text-center">
                                         Don't have an account?
-                                        <a asp-controller="Attendee" asp-action="Add" class="text-primary text-gradient font-weight-bold">Sign up</a>
+                                        <a asp-controller="User" asp-action="Login" class="text-primary text-gradient font-weight-bold">Sign in</a>
                                     </p>
                                 </form>
                             </div>

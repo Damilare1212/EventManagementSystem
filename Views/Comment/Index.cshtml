@@ -1,4 +1,7 @@
-﻿@{
+﻿@using EventApp.DTOs;
+@using System.Security.Claims;
+@model List<CommentDto>
+@{
     if (User.IsInRole("Admin"))
     {
         Layout = "_AdminDashBoard";
@@ -11,4 +14,75 @@
     {
         Layout = "_AttendeeDashBoard";
     }
+
+    bool isAdmin = User.IsInRole("Admin");
+    string currentUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Include additional CSS styles for customizing the view -->
+    <style>
+        /* Add your custom styles here */
+        .comment-container {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .comment-container h3 {
+            margin-top: 0;
+        }
+
+        .comment-container p {
+            margin-bottom: 10px;
+        }
+
+        .action-buttons {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Comments</h1>
+
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var comment in Model)
+            {
+                <div class="comment-container">
+                    <h3>@comment.Subject</h3>
+                    <p>Event Name: @comment.EventName</p>
+                    <p>@comment.Content</p>
+                    <div class="action-buttons">
+                        @if (currentUserId == comment.CreatorId.ToString())
+                        {
+                            <a asp-controller="Comment" asp-action="Update" asp-route-Id="@comment.Id" class="btn btn-primary">Update</a>
+                            @*<button type="button" class="btn btn-primary">Update</button>*@
+                        }
+
+                        @if (isAdmin)
+                        {
+                            <a asp-controller="Comment" asp-action="Delete" asp-route-Id="@comment.Id" class="btn btn-danger">Delete</a>
+                            @*<button type="button" class="btn btn-danger">Delete</button>*@
+                        }
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No comments found.</p>
+        }
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -44,7 +44,7 @@ namespace EventApp.Controllers
         }
 
         [HttpPost]
-        //[Authorize(Roles = "Organizer")]
+        [Authorize(Roles = "Organizer")]
         public async Task<IActionResult> Create(CreateEventRequestModel model)
         {
             var events = await _eventService.CreateEvent(model);
@@ -211,6 +211,16 @@ namespace EventApp.Controllers
             var organizer = await _organizerService.GetOrganizerByEmail(userMail);
 
             var events = await _eventService.GetAllOrganizerPastEvents(organizer.Data.Id);
+            return View(events.Data);
+        }
+        
+        [HttpGet]
+        public async Task<IActionResult> OrganizerAllEvents()
+        {
+            var userMail = User.FindFirst(ClaimTypes.Email).Value;
+            var organizer = await _organizerService.GetOrganizerByEmail(userMail);
+
+            var events = await _eventService.GetOrganizerAllEvents(organizer.Data.Id);
             return View(events.Data);
         }
     }

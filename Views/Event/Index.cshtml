@@ -39,6 +39,30 @@
                 </th>
             </tr>
         }
+        else if (User.IsInRole("Attendee"))
+        {
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Theme)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.EventDate)
+                </th>
+                
+                <th>
+                    Details
+                </th>
+               
+            </tr>
+        }
         else
         {
             <tr>
@@ -69,7 +93,7 @@
                 </th>
             </tr>
         }
-        
+
     </thead>
     <tbody>
         @foreach (var events in Model)
@@ -94,6 +118,26 @@
                     </td>
                     <td>
                         <a asp-action="Delete" asp-route-id="@events.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+            else if (User.IsInRole("Attendee"))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => events.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => events.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => events.Theme)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => events.EventDate)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@events.Id">Details</a>
                     </td>
                 </tr>
             }

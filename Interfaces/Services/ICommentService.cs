@@ -9,7 +9,7 @@ namespace EventApp.Interfaces.Services
 {
     public interface ICommentService
     {
-        Task<BaseResponse<CommentDto>> AddComment(CreateCommentRequestModel model);
+        Task<BaseResponse<CommentDto>> AddComment(CreateCommentRequestModel model, int userId);
         Task<BaseResponse<CommentDto>> UpdateComment(int id, UpdateCommentRequestModel model);
         Task<BaseResponse<CommentDto>> GetCommentById(int id);
         Task<BaseResponse<CommentDto>> GetCommentBySubject(string subject);

@@ -17,7 +17,7 @@
             <div class="p-4 pt-5">
                 <ul class="list-unstyled components mb-5">
                     <li>
-                        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Attendee</a>
+                        <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Oragnizer</a>
                         <ul class="collapse list-unstyled" id="pageSubmenu1">
                             <li>
                                 <a asp-action="Profile" asp-controller="Organizer">Profile</a>
@@ -38,6 +38,9 @@
                         <ul class="collapse list-unstyled" id="pageSubmenu6">
                             <li>
                                 <a asp-action="Create" asp-controller="Event">Create</a>
+                            </li>
+                            <li>
+                                <a asp-action="Index" asp-controller="Event">Events</a>
                             </li>
                             <li>
                                 <a asp-action="OrganizerUpComingEvents" asp-controller="Event">Upcoming Events</a>

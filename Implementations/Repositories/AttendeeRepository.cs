@@ -31,10 +31,14 @@ namespace EventApp.Implementations.Repositories
 
         public async Task<Attendee> Get(Expression<Func<Attendee, bool>> expression)
         {
-            return await _context.Attendees.Include(h => h.User)
-                        .ThenInclude(b => b.UserRoles).ThenInclude(r => r.Role).Include(f => f.AttendeeCategories)
+            return await _context.Attendees
+                        .Include(h => h.User)
+                        .ThenInclude(b => b.UserRoles)
+                        .ThenInclude(r => r.Role)
+                        .Include(f => f.AttendeeCategories)
                         .ThenInclude( b => b.Category)
-                        .Where(v => v.IsDeleted == false).FirstOrDefaultAsync(expression);
+                        .Where(v => v.IsDeleted == false)
+                        .FirstOrDefaultAsync(expression);
         }
 
         public async Task<IList<Attendee>> GetAll()
@@ -74,8 +78,12 @@ namespace EventApp.Implementations.Repositories
 
         public async Task<IList<int>> GetAttendeeCategories(int attendeeId)
         {
-            return await _context.AttendeeCategories.Include(p => p.Category).Include(j => j.Attendee)
-                .Where(k => k.IsDeleted == false && k.AttendeeId == attendeeId ).Select(f => f.Category.Id).ToListAsync();
+            return await _context.AttendeeCategories
+                                .Include(p => p.Category)
+                                .Include(j => j.Attendee)
+                                .Where(k => k.IsDeleted == false && k.AttendeeId == attendeeId )
+                                .Select(f => f.Category.Id)
+                                .ToListAsync();
         }
 
         public bool EmailExist(string email)
