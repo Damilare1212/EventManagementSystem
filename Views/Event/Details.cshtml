@@ -53,7 +53,7 @@
     </dd>
 
 </dl>
- else if (User.IsInRole("Organizer"))
+@if (User.IsInRole("Organizer"))
 {
 <button style="background-color:darkblue;"><a asp-action="OrganizerAllEvents">Back to List</a></button>
 }

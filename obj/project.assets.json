@@ -2831,11 +2831,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Projects\\MyProjects\\EventApp\\EventApp.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\EventManagementSystem\\EventApp.csproj",
       "projectName": "EventApp",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Projects\\MyProjects\\EventApp\\EventApp.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\EventManagementSystem\\EventApp.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Projects\\MyProjects\\EventApp\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\EventManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

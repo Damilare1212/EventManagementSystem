@@ -8,273 +8,273 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EventApp
 build_property.RootNamespace = EventApp
-build_property.ProjectDir = C:\Users\USER\Desktop\Projects\MyProjects\EventApp\
+build_property.ProjectDir = C:\Users\USER\Desktop\EventManagementSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\Projects\MyProjects\EventApp
+build_property.MSBuildProjectDirectory = C:\Users\USER\Desktop\EventManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Add.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/AdminPage.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/AdminPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Profile.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Admin/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Admin/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Add.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcQWRkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/AttendeePage.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/AttendeePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcQXR0ZW5kZWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Error.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Profile.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/SignUpPage.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/SignUpPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcU2lnblVwUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Attendee/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Attendee/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kZWVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Category/Create.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Category/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Category/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Category/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Category/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Category/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Category/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Category/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Comment/Create.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Comment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Comment/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Comment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Comment/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Comment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Comment/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Comment/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/AttendeeAllBookedEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/AttendeeAllBookedEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQXR0ZW5kZWVBbGxCb29rZWRFdmVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/AttendeeAreaOfInterestEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/AttendeeAreaOfInterestEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQXR0ZW5kZWVBcmVhT2ZJbnRlcmVzdEV2ZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/AttendeePastEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/AttendeePastEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQXR0ZW5kZWVQYXN0RXZlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/BookForEvent.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/BookForEvent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQm9va0ZvckV2ZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/CancelEvent.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/CancelEvent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ2FuY2VsRXZlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/Create.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/OrganizerAllEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/OrganizerAllEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcT3JnYW5pemVyQWxsRXZlbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/OrganizerPastEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/OrganizerPastEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcT3JnYW5pemVyUGFzdEV2ZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/OrganizerUpComingEvents.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/OrganizerUpComingEvents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcT3JnYW5pemVyVXBDb21pbmdFdmVudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Event/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Event/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Home/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Home/Privacy.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Add.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXEFkZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Profile.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXFByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Organizer/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Organizer/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JnYW5pemVyXFVwZGF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Role/Create.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Role/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Role/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Role/Details.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Role/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Role/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Role/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Role/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/Error.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_AdminDashBoard.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_AdminDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkRhc2hCb2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_AttendeeDashBoard.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_AttendeeDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BdHRlbmRlZURhc2hCb2FyZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_Layout.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_LayoutHomePage.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_LayoutHomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRIb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_OrganizerDashBoard.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_OrganizerDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Pcmdhbml6ZXJEYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/Ticket/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/Ticket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/User/Delete.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/User/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/User/Index.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/User/Login.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/User/Profile.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/User/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/User/Update.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/User/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/_ViewImports.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USER/Desktop/Projects/MyProjects/EventApp/Views/_ViewStart.cshtml]
+[C:/Users/USER/Desktop/EventManagementSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

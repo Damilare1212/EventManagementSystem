@@ -435,7 +435,7 @@ namespace EventApp.Implementations.Services
             var attendeeEvent = await _eventRepository.GetAttendeeEventById(attendeeId, eventId);
             var attendee = await _attendeeRepository.Get(attendeeId);
             var events = await _eventRepository.Get(eventId);
-                if (attendeeEvent != null &&( attendeeEvent.Event.EventType == Enums.EventType.PrivateEvent || attendeeEvent.Event.EventDate < DateTime.UtcNow))
+                if (attendeeEvent != null || attendeeEvent.Event.EventType == Enums.EventType.PrivateEvent || attendeeEvent.Event.EventDate < DateTime.UtcNow)
                 {
                     return new BaseResponse<EventDto>
                     {

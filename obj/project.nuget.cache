@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k4nN3/Ff8zWjHQ8q3flr7zpjZ53svLR/vIAG0JhJMchfEOZE4u/LHWmduahXpmMOleXuy9pAGpwX0EDHw+SU8g==",
+  "dgSpecHash": "iFMJig28O6DiUl9o+fPS177asHYiaG+ddQa9L12vo/GnUrtlkR7itQya4gt5IAe7sSMzZLyIqrUMeV3fRAHXdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Projects\\MyProjects\\EventApp\\EventApp.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\EventManagementSystem\\EventApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
